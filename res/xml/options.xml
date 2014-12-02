@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/options_lblGameplay" >
+
+        <Preference
+            android:key="rules"
+            android:summary="@string/options_sumRules"
+            android:title="@string/options_ttlRules" >
+
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="dev.android.cbuelter.RuleEditor"
+                android:targetPackage="dev.android.cbuelter" >
+            </intent>
+        </Preference>
+
+        <ListPreference
+            android:defaultValue="0.15"
+            android:entries="@array/arr_entries_fill"
+            android:entryValues="@array/arr_values_fill"
+            android:key="fill"
+            android:summary="@string/options_sumFill"
+            android:title="@string/options_ttlFill" />
+            
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:key="torus"
+            android:summary="@string/options_sumTorus"
+            android:title="@string/options_ttlTorus" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/options_lblVisuals" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:key="grid"
+            android:summary="@string/options_sumGrid"
+            android:title="@string/options_ttlGrid" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/arr_entries_brush"
+            android:entryValues="@array/arr_values_brush"
+            android:key="brush"
+            android:summary="@string/options_sumBrush"
+            android:title="@string/options_ttlBrush" />
+            
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:key="stats"
+            android:summary="@string/options_sumStats"
+            android:title="@string/options_ttlStats" />
+            
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/arr_entries_fade"
+            android:entryValues="@array/arr_values_fade"
+            android:key="fade"
+            android:summary="@string/options_sumFade"
+            android:title="@string/options_ttlFade" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/options_lblPerformance" >
+
+        <!-- gets filled dynamically from within "Options" -->
+
+		<!--  android:defaultValue="16" default value is overwritten in Options -->
+        <ListPreference
+            android:key="res"
+            android:summary="@string/options_sumRes"
+            android:title="@string/options_ttlRes" />
+
+        <ListPreference
+            android:defaultValue="12"
+            android:entries="@array/arr_entries_fps"
+            android:entryValues="@array/arr_values_fps"
+            android:key="fps"
+            android:summary="@string/options_sumFps"
+            android:title="@string/options_ttlFps" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

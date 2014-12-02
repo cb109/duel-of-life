@@ -1,0 +1,26 @@
+Here is how I use a NumberPicker
+
+In my OnCreate method:
+
+        NumberPicker picker = (NumberPicker) findViewById(R.id.SpinRate);
+        picker.setValue(mBeatsPerMin);
+        picker.setOnValueChangeListener(mPickerListener);
+
+My listener looks like this:
+
+
+        private class PickerListener implements NumberPicker.ValueChangeListener {
+
+                @Override
+                public void onNumberPickerValueChange( NumberPicker picker, int value) {
+
+                        if (picker.getId() == R.id.SpinRate) {
+                                mBeatsPerMin = value;
+                        }
+
+                        return;
+                }
+
+        }
+
+

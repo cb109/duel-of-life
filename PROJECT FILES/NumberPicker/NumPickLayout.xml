@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/WholeScreen">
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:text="@string/TextRate"
+		android:gravity="center"
+		android:id="@+id/RateTitle" />
+	<com.casadelgato.widgets.NumberPicker
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_toRightOf="@id/RateTitle"
+		android:layout_alignLeft="@+id/SpinMeasure"
+		android:gravity="center"
+		plusminus_width="50"
+		vertical="false"
+		minValue="20"
+		defaultValue="60"
+		maxValue="240"
+		textSize="33"
+		textarea_width="80"
+		repeatAcceleration="10"
+		android:id="@+id/SpinRate" />
+</RelativeLayout>

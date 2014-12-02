@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.android.cbuelter"
+    android:versionCode="3"
+    android:versionName="1.02" >
+    
+    <!-- CHANGE LIST
+    	
+    	1.0 - released!
+    	1.01 - added hyperlink in Start
+    	1.02 - fixed bug when trying to change rulesets (wrong package name in options.xml)
+
+     -->
+      
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    
+    <!-- portrait/nosensor + keyboardHidden + orientation should prevent orientation changes -->
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:name=".Start"
+            android:screenOrientation="portrait" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Game" >
+        </activity>
+        <activity
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/options_lblOptions"
+            android:name=".Options"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/options_lblEditor"
+            android:name="dev.android.cbuelter.RuleEditor"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

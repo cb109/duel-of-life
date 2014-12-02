@@ -1,0 +1,109 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=Duel of Life05/src<cb.android{Start.java[Start"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="74"/>
+      <y="42"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/src<cb.android{Game.java[Game"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="74"/>
+      <y="287"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/src<cb.android{World.java[World"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="414"/>
+      <y="472"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/src<cb.android{RuleEditor.java[RuleEditor"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="601"/>
+      <y="42"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/src<cb.android{Options.java[Options"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="332"/>
+      <y="42"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/src<cb.android{Cell.java[Cell"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="675"/>
+      <y="473"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/gen<cb.android{R.java[R"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="2111"/>
+      <y="270"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/gen<cb.android{R.java[R[array"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="2350"/>
+      <y="442"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/gen<cb.android{R.java[R[attr"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="2319"/>
+      <y="544"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/gen<cb.android{R.java[R[drawable"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="2112"/>
+      <y="360"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/gen<cb.android{R.java[R[id"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="1906"/>
+      <y="265"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/gen<cb.android{R.java[R[layout"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="2236"/>
+      <y="593"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/gen<cb.android{R.java[R[menu"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="2171"/>
+      <y="634"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/gen<cb.android{R.java[R[string"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="1703"/>
+      <y="262"/>
+   </type>
+   <type>
+      <name="=Duel of Life05/gen<cb.android{R.java[R[xml"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="2351"/>
+      <y="350"/>
+   </type>
+</uml>
+
